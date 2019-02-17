@@ -14,4 +14,5 @@ winner1 = passengers.each do |key,value|
     end
     winner
   end
+  winner1
 end
