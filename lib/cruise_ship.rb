@@ -8,7 +8,8 @@
 
 def select_winner(passengers)
 
-winner1 = passengers.each do |key,value|
+winner1 = passengers.each do |key,value| # we chose each cus we dont want to colelct the 
+  #key/value pair just he name 
     if key == :suite_a && value.start_with?("A")
       winner = value
       return winner
